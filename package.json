@@ -20,7 +20,7 @@
   ],
   "author": "610204448@qq.com",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "husky": "^2.0.0"
   }
 }
