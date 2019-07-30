@@ -1,0 +1,23 @@
+{
+  "name": "commit_tools",
+  "version": "1.0.0",
+  "description": "git hooks & husky & Node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sosoyy/commit_tools.git"
+  },
+  "scripts": {
+    "commitmsg": "cd tools && node checkcommitmsg.js ${GIT_PARAMS}"
+  },
+  "keywords": [
+    "git",
+    "hooks",
+    "husky",
+    "Node"
+  ],
+  "author": "610204448@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^2.0.0"
+  }
+}
